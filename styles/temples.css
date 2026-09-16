@@ -35,6 +35,11 @@ header h1 {
 
 /* nav */
 
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
 .navigation {
     list-style: none;
     display: none;

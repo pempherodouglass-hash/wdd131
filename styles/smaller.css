@@ -1,0 +1,73 @@
+:root {
+    --primary-color: #c8102e;
+    --secondary-color: #007a33;
+    --accent-color: #000000;
+    --light-color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: var(--light-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+picture img {
+    width: 100%;
+    display: block;
+}
+
+section {
+    padding: 1rem;
+}
+
+h2 {
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+    padding: .5rem;
+    margin-bottom: 1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: .4rem;
+}
+
+.first-col {
+    text-align: right;
+    width: 50%;
+}
+
+#weather-svg {
+    display: block;
+    width: 70px;
+    margin: 0 auto 1rem;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+#lastModified {
+    margin-top: .5rem;
+}

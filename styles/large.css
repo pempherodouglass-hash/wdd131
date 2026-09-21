@@ -1,0 +1,32 @@
+@media screen and (min-width: 800px) {
+
+    main {
+        position: relative;
+    }
+
+    #left-section {
+        position: absolute;
+        top: 60px;
+        left: 30px;
+        background: rgba(255, 255, 255, 0.9);
+        padding: 1rem;
+        width: 300px;
+    }
+
+    #right-section {
+        position: absolute;
+        bottom: 40px;
+        right: 30px;
+        background: rgba(255, 255, 255, 0.9);
+        padding: 1rem;
+        width: 280px;
+    }
+
+    #weather-svg {
+        display: none;
+    }
+
+    #weather-icon::after {
+        content: " ⛅";
+    }
+}

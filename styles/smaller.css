@@ -62,15 +62,18 @@ td {
 }
 
 footer {
-    background-color: var(--primary-color);
-    color: white;
+    background-color: #000000;
     text-align: center;
     padding: 1rem;
 }
 
+footer p,
+ footer span {
+     color: #ffffff;
+}
+
 #lastModified {
     margin-top: .5rem;
-    color: yellow;
-    display: block;
+    color: yellowgreen;
 
 }

@@ -70,4 +70,7 @@ footer {
 
 #lastModified {
     margin-top: .5rem;
+    color: yellow;
+    display: block;
+
 }

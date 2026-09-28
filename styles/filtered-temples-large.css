@@ -1,0 +1,32 @@
+@media screen and (min-width: 768px) {
+
+    #hambutton {
+        display: none;
+    }
+
+    #navmenu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+``
+
+#hambutton {
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    margin: .5rem auto;
+
+    /* ADD THESE THREE LINES TO CLEAN UP THE BUTTON ASPECT */
+    background: none;
+    border: none;
+    cursor: pointer;
+}

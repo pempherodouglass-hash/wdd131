@@ -1,15 +1,3 @@
-#hambutton {
-    display: block;
-    text-align: right;
-    text-decoration: none;
-    color: white;
-    font-size: 2rem;
-    margin: .5rem auto;
-    background: none;
-    border: none;
-    cursor: pointer;
-}
-
 @media screen and (min-width: 768px) {
 
     #hambutton {

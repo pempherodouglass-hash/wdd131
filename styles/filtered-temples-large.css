@@ -15,7 +15,6 @@
     }
 }
 
-``
 
 #hambutton {
     display: block;
@@ -24,8 +23,6 @@
     color: white;
     font-size: 2rem;
     margin: .5rem auto;
-
-    /* ADD THESE THREE LINES TO CLEAN UP THE BUTTON ASPECT */
     background: none;
     border: none;
     cursor: pointer;

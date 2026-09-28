@@ -11,7 +11,7 @@ body {
 
 header {
     background-color: #003049;
-    color: white;
+    color: #ffffff;
     padding: 1rem;
 }
 
@@ -23,7 +23,7 @@ header {
     display: block;
     text-align: right;
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     font-size: 2rem;
     margin: .5rem auto;
     background: none;
@@ -41,7 +41,7 @@ header {
 }
 
 #navmenu a {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     text-align: center;
     padding: 1rem;
@@ -49,7 +49,7 @@ header {
 
 #navmenu a:hover {
     background-color: #fcbf49;
-    color: black;
+    color: #000000;
 }
 
 main {
@@ -70,7 +70,7 @@ main h2 {
 }
 
 .gallery section {
-    background-color: white;
+    background-color: #ffffff;
     border: 2px solid #003049;
     padding: 1.5rem;
     text-align: center;
@@ -101,7 +101,7 @@ main h2 {
 /* Footer */
 footer {
     background-color: #003049;
-    color: white;
+    color: #ffffff;
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;

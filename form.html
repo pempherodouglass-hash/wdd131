@@ -11,102 +11,96 @@
 
     <link rel="stylesheet" href="styles/form.css">
     <script src="scripts/form.js" defer></script>
-</head>
+</head >
 
-<body>
+            <body>
 
-    <header>
-        <h1>Product Review Form</h1>
-    </header>
+                <header>
+                    <h1>Product Review Form</h1>
+                </header>
 
-    <main>
-        <form method="get" action="review.html">
+                <main>
+                    <form method="get" action="review.html">
 
-            <label for="productName">Product Name*</label>
-            <select id="productName" name="productName" required>
-                <option value="" disabled selected>Select a Product ...</option>
-            </select>
+                        <label for="productName">Product Name*</label>
+                        <select id="productName" name="productName" required>
+                            <option value="" disabled selected>Select a Product ...</option>
+                        </select>
 
-            <fieldset>
-                <legend>Overall Rating*</legend>
+                        <fieldset>
+                            <legend>Overall Rating*</legend>
 
-                <label for="star1">
-                    <input type="radio" id="star1" name="rating" value="1" required>
-                    ☆
-                </label>
+                            <label for="star1">
+                                <input type="radio" id="star1" name="rating" value="1" required>
+                                    ☆
+                            </label>
 
-                <label for="star2">
-                    <input type="radio" id="star2" name="rating" value="2" required>
-                    ☆☆
-                </label>
+                            <label for="star2">
+                                <input type="radio" id="star2" name="rating" value="2" required>
+                                    ☆☆
+                            </label>
 
-                <label for="star3">
-                    <input type="radio" id="star3" name="rating" value="3" required>
-                    ☆☆☆
-                </label>
+                            <label for="star3">
+                                <input type="radio" id="star3" name="rating" value="3" required>
+                                    ☆☆☆
+                            </label>
 
-                <label for="star4">
-                    <input type="radio" id="star4" name="rating" value="4" required>
-                    ☆☆☆☆
-                </label>
+                            <label for="star4">
+                                <input type="radio" id="star4" name="rating" value="4" required>
+                                    ☆☆☆☆
+                            </label>
 
-                <label for="star5">
-                    <input type="radio" id="star5" name="rating" value="5" required>
-                    ☆☆☆☆☆
-                </label>
-            </fieldset>
+                            <label for="star5">
+                                <input type="radio" id="star5" name="rating" value="5" required>
+                                    ☆☆☆☆☆
+                            </label>
+                        </fieldset>
 
-            <label for="installDate">Date of Installation*</label>
-            <input type="date" id="installDate" name="installDate" required>
+                        <label for="installDate">Date of Installation*</label>
+                        <input type="date" id="installDate" name="installDate" required>
 
-            <fieldset>
-                <legend>Useful Features</legend>
+                            <fieldset>
+                                <legend>Useful Features</legend>
 
-                <label>
-                    <input type="checkbox" id="durability" name="features" value="Durability">
-                    Durability
-                </label>
+                                <label>
+                                    <input type="checkbox" id="durability" name="features" value="Durability">
+                                        Durability
+                                </label>
 
-                <label>
-                    <input type="checkbox" id="easeOfUse" name="features" value="Ease of Use">
-                    Ease of Use
-                </label>
+                                <label>
+                                    <input type="checkbox" id="easeOfUse" name="features" value="Ease of Use">
+                                        Ease of Use
+                                </label>
 
-                <label>
-                    <input type="checkbox" id="performance" name="features" value="Performance">
-                    Performance
-                </label>
+                                <label>
+                                    <input type="checkbox" id="performance" name="features" value="Performance">
+                                        Performance
+                                </label>
 
-                <label>
-                    <input type="checkbox" id="design" name="features" value="Design">
-                    Design
-                </label>
-            </fieldset>
+                                <label>
+                                    <input type="checkbox" id="design" name="features" value="Design">
+                                        Design
+                                </label>
+                            </fieldset>
 
-            <label for="review">Written Review</label>
-            <textarea id="review" name="review" rows="5"></textarea>
+                            <label for="review">Written Review</label>
+                            <textarea id="review" name="review" rows="5"></textarea>
 
-            <label for="username">Your Name</label>
-            <input type="text" id="username" name="username">
+                            <label for="username">Your Name</label>
+                            <input type="text" id="username" name="username">
 
-            <input type="submit" value="Submit Review">
+                                <input type="submit" value="Submit Review">
 
-        </form>
-    </main>
+                                </form>
+                            </main>
 
-    <footer>
-        <p>
-            &copy; <span id="currentyear"></span> Pemphero Douglass | Malawi
-        </p>
-        <p id="lastModified"></p>
-    </footer>
+                            <footer>
+                                <p>
+                                    &copy; <span id="currentyear"></span> Pemphero Douglass | Malawi
+                                </p>
+                                <p id="lastModified"></p>
+                            </footer>
 
-    <script>
-        document.querySelector("#currentyear").textContent = new Date().getFullYear();
-        document.querySelector("#lastModified").textContent =
-            `Last Modification: ${document.lastModified}`;
-    </script>
+                        </body>
 
-</body>
-
-</html>
+                    </html>

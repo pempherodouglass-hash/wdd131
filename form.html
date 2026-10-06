@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="styles/form.css">
     <script src="scripts/form.js" defer></script>
-</head >
+</head>
 
             <body>
 
@@ -59,29 +59,21 @@
                         <label for="installDate">Date of Installation*</label>
                         <input type="date" id="installDate" name="installDate" required>
 
-                            <fieldset>
-                                <legend>Useful Features</legend>
-
-                                <label>
-                                    <input type="checkbox" id="durability" name="features" value="Durability">
-                                        Durability
-                                </label>
-
-                                <label>
-                                    <input type="checkbox" id="easeOfUse" name="features" value="Ease of Use">
-                                        Ease of Use
-                                </label>
-
-                                <label>
-                                    <input type="checkbox" id="performance" name="features" value="Performance">
-                                        Performance
-                                </label>
-
-                                <label>
-                                    <input type="checkbox" id="design" name="features" value="Design">
-                                        Design
-                                </label>
-                            </fieldset>
+                    <fieldset>
+                        <legend>Useful Features</legend>
+                    
+                        <input type="checkbox" id="durability" name="features" value="Durability">
+                        <label for="durability">Durability</label>
+                    
+                        <input type="checkbox" id="easeOfUse" name="features" value="Ease of Use">
+                        <label for="easeOfUse">Ease of Use</label>
+                    
+                        <input type="checkbox" id="performance" name="features" value="Performance">
+                        <label for="performance">Performance</label>
+                    
+                        <input type="checkbox" id="design" name="features" value="Design">
+                        <label for="design">Design</label>
+                    </fieldset>
 
                             <label for="review">Written Review</label>
                             <textarea id="review" name="review" rows="5"></textarea>
